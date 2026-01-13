@@ -2,6 +2,7 @@ export let initialState = {
   ViewersCount: 0,
 };
 
+//to demo the simple reducer usage
 export function reducer(state, action) {
   switch (action.type) {
     case "Join":
